@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="frosty-ilze-LlvfEJXGnc4-unsplash.jpg" rel="stylesheet">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+		<div class="contact-box">
+			<div class="left-container">
+            </div>
+			<div class="right-container">
+				<h1 class="title">Contact Us</h1>
+                <form method="post" action="mailto:janasjewels@isp.com">
+                    <fieldset>
+                            <input type="text" class="field" placeholder="Name" required >
+                            <input type="email" class="field" placeholder="Email" required >
+                            <input type="tel" class="field" placeholder="Phone" required>
+                            <textarea placeholder="Message" class="field" required></textarea>
+                    </fieldset>
+                </form>
+                <div>
+                    <p>Preffered Contact method</p>
+                    <select class="field" style="max-width:100%;">
+                        <option value="">Select Option</option>
+                        <option value="">Email</option>
+                        <option value="">Phone</option>
+                    </select>
+                </div>
+                <div class="buttons"> 
+	                <button class="btn">Send</button>
+                    <button class="btn">reset</button>
+                </div>
+			</div>
+		</div>
+	</div>  
+</body>
+</html>
